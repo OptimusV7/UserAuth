@@ -17,6 +17,7 @@ import { AuthInterceptor } from './auth/auth.interceptor';
 import { AdminPanelComponent } from './admin-panel/admin-panel.component';
 import { ForbiddenComponent } from './forbidden/forbidden.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,6 +27,7 @@ import { ForbiddenComponent } from './forbidden/forbidden.component';
     HomeComponent,
     AdminPanelComponent,
     ForbiddenComponent
+
   ],
   imports: [
     BrowserModule,
